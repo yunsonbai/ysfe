@@ -71,7 +71,6 @@ func main() {
 		os.Remove(conf.Conf.TmpFilePath)
 		fmt.Println("临时文件已回收")
 	}
-	fmt.Println("backup:", backup, conf.Conf.DstFilePath, conf.Conf.BackupFilePath)
 	if backup {
 		tools.FileCopy(conf.Conf.DstFilePath, conf.Conf.BackupFilePath)
 	}
