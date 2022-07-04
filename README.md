@@ -24,16 +24,16 @@ a为e时f为原始文件, 其他动作f为加密文件(通过-l获取加密文�
 ## 安装
 * mac
 
-wget https://github.com/yunsonbai/ysfe/releases/download/install-tool/install_mac -O install_mac && sh install_mac && rm -rf install_mac
+wget https://github.com/yunsonbai/ysfe/releases/download/install-tool/install_mac.sh -O install_mac.sh && sh install_mac.sh && rm -rf install_mac.sh
 
 如果报权限问题请执行:
-wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_mac -O install_mac && sudo sh install_mac && rm -rf install_mac
+wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_mac.sh -O install_mac.sh && sudo sh install_mac.sh && rm -rf install_mac.sh
 
 如果安装完后不能输入 ysab 命令，可以重启终端或者执行 source /etc/profile
 
 * linux
 
-wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux -O install_linux && sh install_linux && rm -rf install_linux
+wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux.sh -O install_linux.sh && sh install_linux.sh && rm -rf install_linux.sh
 
 如果报权限问题请执行:
-wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux -O install_linux && sudo sh install_linux && rm -rf install_linux
+wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux.sh -O install_linux.sh && sudo sh install_linux.sh && rm -rf install_linux.sh
