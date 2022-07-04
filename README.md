@@ -24,7 +24,7 @@ a为e时f为原始文件, 其他动作f为加密文件(通过-l获取加密文�
 ## 安装
 * mac
 
-wget https://github.com/yunsonbai/ysfe/releases/download/install-tool/install_mac -O install_mac && sh install_mac && rm -rf install_mac
+wget https://github.com/yunsonbai/ysfe/releases/download/v0.9.0/install_mac -O install_mac && sh install_mac && rm -rf install_mac
 
 如果报权限问题请执行:
 wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_mac -O install_mac && sudo sh install_mac && rm -rf install_mac

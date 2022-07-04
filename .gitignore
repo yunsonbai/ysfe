@@ -1,3 +1,5 @@
+install_linux
+install_mac
 .DS_Store
 *log.txt
 .idea/
