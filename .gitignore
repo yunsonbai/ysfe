@@ -15,3 +15,7 @@ pip.ingnore
 *.py[cod]
 !.gitkeep
 tmp.py
+*.tgz
+ysfe-mac-v*
+ysfe-linux-v*
+tmp
