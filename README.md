@@ -21,19 +21,24 @@ a为e时f为原始文件, 其他动作f为加密文件(通过-l获取加密文�
 当a不为e时, -f后边只需要输入文件名即可;
 ```
 
+## 初始化说明
+使用 ysfe -l命令后工具会自动检测是否需要初始化，如果需要初始化，按照工具一步一步的提示完成即可。
+
+备份文件路径: 存放加密文件的备份文件, 误删除加密文件后, 可手动将该路径下对应加密文件copy到 "软件运行目录/efile" 目录下即可
+
 ## 安装
 * mac
 
-wget https://github.com/yunsonbai/ysfe/releases/download/install-tool/install_mac.sh -O install_mac.sh && sh install_mac.sh && rm -rf install_mac.sh
+curl -L -o install_mac.sh https://github.com/yunsonbai/ysfe/releases/download/install-tool/install_mac.sh && sh install_mac.sh && rm -rf install_mac.sh
 
 如果报权限问题请执行:
-wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_mac.sh -O install_mac.sh && sudo sh install_mac.sh && rm -rf install_mac.sh
+curl -L -o install_mac.sh https://github.com/yunsonbai/ysab/releases/download/install-tool/install_mac.sh && sudo sh install_mac.sh && rm -rf install_mac.sh
 
 如果安装完后不能输入 ysab 命令，可以重启终端或者执行 source /etc/profile
 
 * linux
 
-wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux.sh -O install_linux.sh && sh install_linux.sh && rm -rf install_linux.sh
+curl -L -o install_linux.sh https://github.com/yunsonbai/ysfe/releases/download/install-tool/install_linux.sh && sh install_linux.sh && rm -rf install_linux.sh
 
 如果报权限问题请执行:
-wget https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux.sh -O install_linux.sh && sudo sh install_linux.sh && rm -rf install_linux.sh
+curl -L -o install_linux.sh https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux.sh && sudo sh install_linux.sh && rm -rf install_linux.sh
