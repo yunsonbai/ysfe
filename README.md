@@ -1,6 +1,7 @@
 # ysfe
 
-一款可在Linux和macos上运行的小巧文件加密工具，文件只会在本地存储，保证文件的安全可靠不外泄。
+一款可在Linux和macos上运行的小巧文件加密工具，利用个人输入的密码，将文件加密后存储在本地。
+
 需要你记住几个加密指令即可流畅使用
 
 ## 指令参数说明
@@ -42,3 +43,6 @@ curl -L -o install_linux.sh https://github.com/yunsonbai/ysfe/releases/download/
 
 如果报权限问题请执行:
 curl -L -o install_linux.sh https://github.com/yunsonbai/ysab/releases/download/install-tool/install_linux.sh && sudo sh install_linux.sh && rm -rf install_linux.sh
+
+## 注意
+密码不可忘记，忘记文件将无法恢复
