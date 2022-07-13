@@ -16,7 +16,7 @@ func init() {
 }
 
 func actionV() {
-	time.Sleep(10 * time.Second)
+	time.Sleep(120 * time.Second)
 	os.Remove(conf.Conf.TmpFilePath)
 	fmt.Println("临时文件已回收")
 	os.Exit(0)
